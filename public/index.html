@@ -1,37 +1,40 @@
 <!DOCTYPE HTML>
 <html lang="en">
    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
        <title>Fantastic burgers</title>
        <meta charset="utf-8"/>
    </head>
    <body>
     <header>
-        <h1>Välkommen till Burgers Online</h1>
+        <div style="height: 300px; overflow:hidden"><h1 style="position: absolute; margin: 100px 200px 5px 50px; ">Välkommen till Burgers Online</h1>
+            <img src = "https://barbadostoday.bb/wp-content/uploads/2022/01/The-physicality-of-heaven-in-rooted-in-the-Scriptures.-.png" id="headerpic" alt="picture of heaven" title="Heaven"></div>
      </header>
      <nav> 
         
      </nav>
      <main>
-
-        <section>
+        <!-- Burgers -->
+        <section id="blackNwhite">
             <h3> Select burger</h3>
             <p>This is where you execute burger selection</p>
             <div>
-                <div style="display: inline-block;">
+                <div style="display: inline-block; margin: 5px 30px 5px 20px;">
                     <h3>The fire burger</h3>
                     <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/da816281809763.5d0a7b669ab37.jpg" alt="A fire burger" title="Another in-line element" style="width: 300px; height: 300px;">
                     <ul>
                         <li>Caution! Fire hot</li>
+                        <li>Contains <span class="allergy">gluten</span></li>
                     </ul>
                 </div>
-                <div style="display: inline-block;">
+                <div style="display: inline-block; margin: 5px 10px 5px 30px;">
                     <h3>Heavenly burger of true, honest delight</h3>
                     <img src="https://res.cloudinary.com/fleetnation/image/private/c_fit,w_1120/g_south,l_text:style_gothic2:%C2%A9%20Marko%20Kalfa,o_20,y_10/g_center,l_watermark4,o_25,y_50/v1551840459/v8xzb95zuhywdkcbawlw.jpg" alt="A Heavenly burger" title="Another in-line element" style="width: 300px; height: 300px;">
                     <ul>
-                        <li>Do you really need a description of heaven? Yeah, I though so. Yum</li>
+                        <li>Do you really need a description of heaven?</li>
                     </ul>
                 </div>
-                <div style="display: inline-block;">
+                <div style="display: inline-block; margin: 5px 20px 5px 10px;">
                     <h3>Cheeseburger</h3>
                     <img src="https://www.mcdonalds.com/content/dam/usa/nfl/nutrition/items/regular/desktop/t-mcdonalds-Cheeseburger.jpg" alt="A cheeseburger" title="Another in-line element" style="width: 300px; height: 300px;">
                     <ul>
@@ -41,7 +44,7 @@
             </div>
           
          </section>
-        <section>
+        <section style="padding: 5px 40px;">
             <h3>Customer Inforamtion</h3>
             <p>This is where you provide necessary information</p>
             <h3>Delivery Inforamtion:</h3>
@@ -63,7 +66,7 @@
                         <label for="housenumber">House</label><br>
                         <input type="number" id="housenumber" name="ln" placeholder="House number">
                     </p>
-                    
+
                     <p>
                         <label for="payment">Payment options</label><be>
                         <select id="payment" name="rcp">
@@ -90,7 +93,7 @@
                     </p>
                 </form>
             </section>
-            
+            <!-- Submit button -->
             <button type="submit">
                 <img src="https://img.myloview.se/affischer/riding-scooter-old-woman-cartoon-granny-vector-illustration-700-167163192.jpg" style = "width: 30; height: 30px;">
                 Place my order

@@ -1,1 +1,29 @@
 /*empty*/
+@import 'https://fonts.googleapis.com/css?family=Pacifico|Dosis';
+
+body {
+    font-family: arial, sans-serif;
+ }
+
+header {
+    padding-top: 50px;
+    
+}
+
+ .allergy {
+    color: #ff5500;
+ }
+
+ #blackNwhite{
+    background-color:black;
+    color: white;
+    padding: 5px 40px;
+ }
+
+ #headerpic {
+    opacity: 0.3;
+ }
+
+ button:hover {
+    color: pink;
+ }
